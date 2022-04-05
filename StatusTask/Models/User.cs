@@ -50,7 +50,7 @@ namespace StatusTask.Models
             Id = _id;
             _id++;
             this.UserName = UserName;
-
+            _statuses=new List<Status>();
         }
     }
 }
